@@ -1,0 +1,40 @@
+
+tbody#table_rates tr.table_rate td, tbody#int_table_rates tr.int_table_rate td {
+	border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+tbody#table_rates .alternate, tbody#int_table_rates .alternate {
+	background: #fff;
+}
+
+.widefat tfoot th {
+	border-top: 0px solid #fff !important;
+
+}
+
+tbody#table_rates tr.table_rate td.sort, tbody#int_table_rates tr.int_table_rate td.sort {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHUlEQVQYV2O8f//+fwY8gJGgAny6QXKETRgEVgAAXxAVsa5Xr3QAAAAASUVORK5CYII=") no-repeat scroll center center rgba(0, 0, 0, 0);
+    cursor: move;
+    padding: 9px;
+    width: 16px !important;
+}
+tbody#table_rates tr.table_rate td.sort, tbody#int_table_rates tr.int_table_rate td.sort {
+    border-right: 1px solid #dfdfdf;
+    padding: 9px;
+    position: relative;
+    width: auto !important;
+}
+
+tbody#table_rates tr.table_rate td.remove, tbody#int_table_rates tr.int_table_rate td.remove {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAOElEQVQYV2O8f//+fwYgUFRUZATRMAATZ4QxkBUhi4F1IQsgmwIyFW4suiKYlcQpwGsFQUcS8iYAtbQueUkqcX4AAAAASUVORK5CYII=") no-repeat scroll center center rgba(0, 0, 0, 0) !important;
+    cursor: pointer;
+    width: 16px !important;
+}
+tbody#table_rates tr.table_rate td.remove, tbody#int_table_rates tr.int_table_rate td.remove {
+    background: none repeat scroll 0 0 #fff;
+    border-left: 1px solid #dfdfdf;
+    padding: 9px;
+    position: relative;
+    width: auto !important;
+}
